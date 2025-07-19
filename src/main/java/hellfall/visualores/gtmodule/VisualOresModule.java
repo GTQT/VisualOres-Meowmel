@@ -36,8 +36,12 @@ import javax.annotation.Nonnull;
 import java.util.Collections;
 import java.util.List;
 
-@GregTechModule(moduleID = VisualOresModuleContainer.VO_MODULE, containerID = Tags.MODID, name = "VisualOres module", coreModule = true,
-    description = "VisualOres GregTech Integration. Disabling this will disable all GT integration in VisualOres."
+@GregTechModule(
+        moduleID = VisualOresModuleContainer.VO_MODULE,
+        containerID = GTValues.MODID,
+        name = "VisualOres module",
+        coreModule = true,
+        description = "VisualOres GregTech Integration. Disabling this will disable all GT integration in VisualOres."
 )
 public class VisualOresModule extends BaseGregTechModule {
     @Nonnull

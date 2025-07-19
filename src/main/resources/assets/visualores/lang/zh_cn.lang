@@ -1,0 +1,40 @@
+# 按钮 (Buttons)
+visualores.button.oreveins=切换矿脉显示
+visualores.button.undergroundfluid=切换地下流体显示
+visualores.button.excavator=切换矿脉挖掘显示
+visualores.button.aura_flux=切换灵气/熵显示
+visualores.button.starlight=切换星光等级显示
+visualores.button.neromantic=切换纳耳狂曼喷口流体显示
+
+# 命令 (Commands)
+visualores.command.reset.usage=重置 VisualOres 客户端缓存
+visualores.command.reset.success=客户端缓存已重置！
+visualores.command.openfolder.usage=打开客户端缓存文件夹
+visualores.command.openfolder.message=打开缓存文件夹
+visualores.command.openfolder.error=无法打开缓存文件夹
+
+# 工具提示溢出 (Tooltip Overflow)
+visualores.tooltipoverflow=... (还有 %d 行)
+
+# 按键类别 (Key Category)
+visualores.keycategory=VisualOres
+
+# 按键绑定 (Key Binding)
+visualores.key.action=功能键
+
+# 数据共享 (Data Sharing)
+visualores.share.clientonly=服务器未安装 VisualOres，无法共享勘探数据！
+visualores.share.notification=%s 正在与你共享勘探数据！
+
+# GregTech 相关 (GregTech - Prospecting)
+visualores.gregtech.newveins=勘探到 %d 条新矿脉！
+visualores.gregtech.depleted= (已枯竭)
+visualores.gregtech.missingvein=缺失矿脉：%s
+
+# Thaumcraft 相关 (Thaumcraft - Aura/Flux)
+visualores.thaumcraft.aura=灵气：%d
+visualores.thaumcraft.flux=熵：%d
+visualores.thaumcraft.base=总量：%d/%d
+
+# Astral Sorcery 相关 (Astral Sorcery - Underground Fluid)
+visualores.astralsorcery.fluid=地下深处含有 %s

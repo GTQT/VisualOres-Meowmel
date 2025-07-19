@@ -3,6 +3,7 @@ package hellfall.visualores.mixins.gregtech;
 import gregtech.api.worldgen.config.OreDepositDefinition;
 import gregtech.api.worldgen.generator.CachedGridEntry;
 import gregtech.api.worldgen.generator.GTWorldGenCapability;
+import hellfall.visualores.VisualOres;
 import hellfall.visualores.database.gregtech.ore.ServerCache;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Final;
@@ -37,8 +38,8 @@ public abstract class CachedGridEntryMixin {
             )
     )
     private void visualores$injectGenerateVein(OreDepositDefinition definition, CallbackInfo ci) {
-//        VisualOres.LOGGER.info("gen vein " + definition.getDepositName() + " at " + veinCenterX + "," + veinCenterY + "," + veinCenterZ);
-//        VisualOres.LOGGER.info("in grid " + gridX + ", " + gridZ + ", dimension " + dimid);
+        VisualOres.LOGGER.info("gen vein " + definition.getDepositName() + " at " + veinCenterX + "," + veinCenterY + "," + veinCenterZ);
+        VisualOres.LOGGER.info("in grid " + gridX + ", " + gridZ + ", dimension " + dimid);
         if (definition.isVein()) {
             ServerCache.instance.addVein(dimid, veinCenterX, veinCenterZ, gridX, gridZ, definition.getDepositName());
         }
