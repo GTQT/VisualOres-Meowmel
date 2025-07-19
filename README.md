@@ -4,6 +4,10 @@
 
 "[VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting/) but for 1.12"
 
+原始链接：https://github.com/kumquat-ir/VisualOres
+
+修复内容：汉化 ceu2.9适配
+
 A mod that adds various overlays to map mods.
 
 Requires CodeChickenLib and MixinBooter.
@@ -26,11 +30,11 @@ Your client-side cache folder can be opened with `/vo openCacheFolder`, and all 
 ## Current overlays
 
 ### [GregTech CEu](https://github.com/GregTechCEu/GregTech)
-Requires GTCEu version 2.7.3  
+Requires GTCEu version 2.9.0  
 Requires VisualOres to be installed on both the client and server
 
 #### Ore vein overlay
-![2023-07-27_12 25 40](https://github.com/kumquat-ir/VisualOres/assets/66188216/91cc7f81-a8f6-44b3-ad27-e15273f4b8a8)
+![2023-07-27_12 25 40](https://github.com/GTQT/VisualOres-Meowmel/assets/66188216/91cc7f81-a8f6-44b3-ad27-e15273f4b8a8)
 
 Displays ore veins you have discovered. Pick up surface rocks, right-click ore blocks, or use an electric prospector on ore mode to discover veins.  
 
@@ -43,7 +47,7 @@ Veins may be missing, and veins that do not exist may be marked.
 (This uses a modified version of [Enklume](https://github.com/GTNewHorizons/Enklume) to parse the save data, located [here](https://github.com/kumquat-ir/VisualOres/tree/master/src/main/java/hellfall/visualores/lib/io/xol/enklume))
 
 #### Underground fluid overlay
-![2023-07-27_12 27 01](https://github.com/kumquat-ir/VisualOres/assets/66188216/810835ba-5437-4a7d-b9f3-4295e85c68d2)
+![2023-07-27_12 27 01](https://github.com/GTQT/VisualOres-Meowmel/assets/66188216/810835ba-5437-4a7d-b9f3-4295e85c68d2)
 
 Displays underground fluid fields you have discovered. Use an electric prospector on fluid mode to discover fields.  
 (Yes, fields being shown as larger around x=0 and z=0 is correct. Underground fluid veins generated with GTCEu 2.7.2 and earlier have a bug with generation that causes this.)
@@ -52,7 +56,7 @@ Displays underground fluid fields you have discovered. Use an electric prospecto
 Also contains integration with [Immersive Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum)
 
 #### Excavator vein overlay
-![2023-08-02_23 18 53](https://github.com/kumquat-ir/VisualOres/assets/66188216/158d9247-7e32-48f4-984b-3a7be8971bc3)
+![2023-08-02_23 18 53](https://github.com/GTQT/VisualOres-Meowmel/assets/66188216/158d9247-7e32-48f4-984b-3a7be8971bc3)
 
 Displays excavator veins you have discovered. Pick up a core sample to add its data to your map.  
 Double click on a vein to toggle it as a waypoint.
@@ -60,14 +64,14 @@ Double click on a vein to toggle it as a waypoint.
 ### [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
 
 #### Aura/flux level overlay
-![2023-08-02_23 19 02](https://github.com/kumquat-ir/VisualOres/assets/66188216/78e0e29a-cc44-4599-bdd2-d843214f57ff)
+![2023-08-02_23 19 02](https://github.com/GTQT/VisualOres-Meowmel/assets/66188216/78e0e29a-cc44-4599-bdd2-d843214f57ff)
 
 Displays aura/flux levels you have seen in chunks. Hold a thaumometer to add the levels shown in the hud to your map.
 
 ### [Astral Sorcery](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery)
 
 #### Starlight level overlay
-![2023-08-02_23 19 40](https://github.com/kumquat-ir/VisualOres/assets/66188216/53d114d3-673d-4783-95c3-11739606302b)
+![2023-08-02_23 19 40](https://github.com/GTQT/VisualOres-Meowmel/assets/66188216/53d114d3-673d-4783-95c3-11739606302b)
 
 Displays starlight concentration levels. Hold a fosic resonator to add nearby starlight levels to your map.  
 Lighter blue means higher concentration (the areas shown in-world with white sparkles).
